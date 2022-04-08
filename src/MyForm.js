@@ -46,7 +46,7 @@ const MyForm = props => {
   const { handleSubmit, pristine, reset, submitting } = props;
   return (
     <form onSubmit={handleSubmit}>
-      <FieldArray name="members" component={renderMembers} />
+      {/* <FieldArray name="members" component={renderMembers} /> */}
       <div>
         <button type="submit" disabled={submitting}>
           Submit
